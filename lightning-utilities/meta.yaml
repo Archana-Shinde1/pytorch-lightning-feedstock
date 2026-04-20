@@ -24,12 +24,12 @@ requirements:
     - fire
     - packaging
     - typing_extensions >=4.0,<5
-    - setuptools >=78.1.1  #[x86_64]
+    - setuptools <81       #[x86_64]
     - setuptools           #[not x86_64]
 test:
   requires:
     - typing_extensions >=4.0,<5
-    - setuptools >=78.1.1  #[x86_64]
+    - setuptools <81       #[x86_64]
     - setuptools           #[not x86_64]
 
   imports:

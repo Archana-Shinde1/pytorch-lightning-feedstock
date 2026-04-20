@@ -37,6 +37,8 @@ requirements:
     - lightning-utilities
 
 test:
+  requires:
+    - setuptools <81
   imports:
     - pytorch_lightning
   commands:                               # [build_type == 'cpu' or cudatoolkit == '11.8']
